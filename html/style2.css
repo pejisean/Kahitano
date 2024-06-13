@@ -1,0 +1,121 @@
+h2 {
+    padding:0;
+    margin-top:0;
+}
+body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            display: flex;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #151515;
+            flex-shrink: 0;
+        }
+        .header img {
+            width: 150px;
+            height: auto;
+        }
+        .navigation a {
+            margin-left: 15px;
+            text-decoration: none;
+            color: whitesmoke;
+
+        }   
+        .header-banner {
+            text-align: center;
+            padding: 0;
+            background: url('https://usa.yamaha.com/files/Grands_Banner_1920px_1ee33fcaec559d8c286d2ad567055166.jpg') no-repeat center center;
+            background-size: cover;
+            flex-shrink: 0;
+            height: 200px;
+        }
+        .row{
+            width:100%;
+            margin-right: none;
+            margin-left: none;
+            margin-bottom: 20px ;
+        }
+        .sidebar {
+            text-align: center;
+            padding-left: 20px;
+            background-color: #151515;
+            color: #FBC403;
+            float: left;
+            width: 20%;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+        .sidebar a{
+            color: whitesmoke
+        }
+        .sidebar a:hover{
+            background-color:#f5d253
+        }
+        .intro-text-area {
+            text-align: center;
+            padding: 20px;
+            background-color: #151515;
+            color: #FBC403;
+            width: 70%;
+            float: right;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+        .boxes {
+            
+            justify-content: space-between;
+            padding: 20px 0;
+            background-color: #151515;
+            
+            flex-shrink: 0;
+        }
+        .box {
+            background-color: #FBFCD4;
+            padding: 20px;
+            text-align: center;
+            overflow: hidden;
+            width: 100%;
+        }
+        .box img {
+            display: block;
+            width: 100%;
+            max-width:100%;
+            max-height:100%;
+            
+        }
+        .footer {
+            text-align: center;
+            padding: 5px;
+            background-color: #151515;
+            flex-shrink: 0;
+        }
+        .footer img {
+            width: 100px;
+            height: auto;
+        }
+        .background {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            box-sizing: border-box;
+            background-color: #0A0A0A;
+            padding: 20px;
+        }
+
+        
